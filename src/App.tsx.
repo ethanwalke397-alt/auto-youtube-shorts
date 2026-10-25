@@ -1,0 +1,23 @@
+import React from "react";
+
+export default function App() {
+  return (
+    <div
+      style={{
+        width: "100%",
+        height: "100vh",
+        backgroundColor: "#101010",
+        color: "white",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        fontFamily: "Arial, sans-serif",
+        textAlign: "center",
+      }}
+    >
+      <h1>🚀 Hello Shorts!</h1>
+      <p>Your YouTube Shorts project is starting.</p>
+    </div>
+  );
+}
